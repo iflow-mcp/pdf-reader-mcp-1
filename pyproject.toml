@@ -24,3 +24,6 @@ pdf-reader-mcp = "src.server:main"
 [project.urls]
 Homepage = "https://github.com/iflow-mcp/pdf-reader-mcp-1"
 Repository = "https://github.com/iflow-mcp/pdf-reader-mcp-1"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
